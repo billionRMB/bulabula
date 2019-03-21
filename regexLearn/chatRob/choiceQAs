@@ -1,0 +1,25 @@
+@Q
+ASK_SCENCE
+@A
+What scene do you want to send it out?
+你想在什么场景下送出
+@M
+ASK_SCENCE
+@Q
+i (.*)
+@A
+How about these flowers?
+@M
+GET_SCENCE
+@Q
+([a-z0-9]+)
+@A
+I Know
+@M
+YES
+@Q
+(.*)
+@A
+Please say again
+@M
+UNKNOW

@@ -1,0 +1,25 @@
+@Q
+ASK_SHOP
+@A
+你住在哪个城市
+Which city do you live in?
+@M
+ASK_SHOP
+@Q
+i live in ([A-Za-z0-9]+)
+@A
+How about these shopes?
+@M
+GET_SHOP
+@Q
+back
+@A
+ok
+@M
+BACK
+@Q
+(.*)
+@A
+Please say again
+@M
+UNKNOW

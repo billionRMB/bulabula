@@ -1,0 +1,45 @@
+@Q
+SAY_WELCOME
+@A
+Welcome to my shop!
+What can i do for you?
+Hi ,would you like to buy some flowers?
+Wow,Nice to meet you!
+@M
+WElCOME
+// 欢迎
+@Q
+BYE
+@A
+あしたまた
+じゃ
+バイバイ
+元気でね
+@M
+QUIT
+// 退出
+@Q
+yes(.*)
+@A
+How about %1?
+@M
+YES
+// 确认
+@Q
+i want to buy ([a-z]*)(.*)
+@A
+How about %1?
+@M
+YES
+// 确认
+@Q
+(.*)
+@A
+Please tell me again.
+I can not understand you.
+@M
+UNKNOW
+// 不知道
+/////////////////////////////////////////////////////////////////
+// 请一个Q后仅跟一个问题
+// SAY_WELCOME等由大写字母组成的单词都是定义好的，请不要更改
